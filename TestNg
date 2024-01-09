@@ -1,0 +1,30 @@
+package org.costo;
+
+import java.util.Scanner;
+
+public class Integers {
+public static void main(String[] args) {
+Scanner f=new Scanner(System.in);
+System.out.println("enter the number:");
+f.nextByte();
+//byte dt----->till  127 
+System.out.println("enter the phonenum:");
+f.nextLong();
+//long datatype ---> 7 to 12 digits 
+System.out.println("enter four digit number:");
+f.nextInt();
+//int stores 4 digits 
+System.out.println("enter the salary:");
+f.nextFloat();
+//after decimal point store 4 digit
+System.out.println("enter the gdp:");
+f.nextDouble();
+//after decimal point stores 6 to 9 digits 
+System.out.println("enter the name :");
+//string means ----> it can be a number , charecters ,special characters ----> string can be specified inside ""
+f.next();
+	}
+	
+	
+
+}
